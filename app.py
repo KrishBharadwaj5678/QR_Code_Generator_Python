@@ -11,7 +11,7 @@ if generate_btn:
     if(len(text)>=1):
         img=qr.make(text)
         img.save("qr-code.jpg")
-        st.image("qr-code.jpg",caption="QR Code",width=350)
+        st.image("qr-code.jpg",caption="QR Code")
     else:
         st.error("Please Fill Out The Above Field")
     
