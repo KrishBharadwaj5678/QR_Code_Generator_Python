@@ -10,9 +10,9 @@ st.set_page_config(
     }
 )
 
-st.write("<h3>Welcome to our <span style='color:orange;'>QR Code Generator!</span></h2>",unsafe_allow_html=True)
+st.write("<h3>Welcome to our <span style='color:orange;'>QR Code Generator!</span></h3>",unsafe_allow_html=True)
 
-st.write("<h5>Start generating QR codes effortlessly and enhance your digital presence today!</h2>",unsafe_allow_html=True)
+st.write("<h5>Start generating QR codes effortlessly and enhance your digital presence today!</h5>",unsafe_allow_html=True)
 
 text=st.text_input("Enter URL or Text",placeholder="e.g  https://www.google.com")
 
